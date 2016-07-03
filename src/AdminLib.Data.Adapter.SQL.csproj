@@ -45,13 +45,13 @@
     <Compile Include="SqlQuery.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\AdminLib\src\AdminLib.csproj">
       <Project>{8cce3667-718f-408a-9b37-fc0f5775d363}</Project>
       <Name>AdminLib</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
